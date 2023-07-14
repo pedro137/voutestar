@@ -1,0 +1,14 @@
+/* Exemplo 1: Modificar a cor de fundo dos botões */
+.table{
+  background-color: var(--bs-table-bg);
+}
+
+/* Exemplo 2: Aumentar a largura do container */
+.container {
+  max-width: 1200px;
+}
+
+/* Exemplo 3: Alterar a cor do texto nos links */
+a {
+  color: blue;
+}

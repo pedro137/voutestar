@@ -1,38 +1,77 @@
 .App {
+ 
   text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2017/01/25/11/36/books-2007660_1280.jpg);
+}
+.table-responsive {
+  max-width: 100%;
+  overflow-x: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #8b4513 !important; /* Cor marrom */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+
+
+.App-table th,
+.App-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #863d06 ;
+ 
+}
+.App-table th{
+  background-color: #863d06 !important;
+  color: white !important;
+ 
+}
+.App-table td {
+  
+  color: white !important; /* Cor do texto branco */
+  background-color: #4e2303 !important;
+}
+.App-table .agua {
+  
+  color: white !important; /* Cor do texto branco */
+  background-color: #863d06 !important;
+  border-bottom: 0px;
+  border-top: 0px;
+}
+
+.button-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  margin-bottom: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.custom-button {
+  background-color: white !important;
+  color: green !important;
+  border: 1px solid green !important;
+
+ 
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-button1 {
+  background-color: white !important;
+  color: #4169E1 !important;
+  border: 1px solid #4169E1 !important;
+}
+
+.custom-button2 {
+  background-color: white !important;
+  color: red !important;
+  border: 1px solid red !important;
 }
